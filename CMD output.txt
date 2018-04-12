@@ -1,0 +1,50 @@
+D:\>particle compile photon webhook.ino
+
+Compiling code for photon
+
+Including:
+    webhook.ino
+attempting to compile firmware
+downloading binary from: /v1/binaries/5acf086acf604b38f817f9ae
+saving to: photon_firmware_1523517544072.bin
+Memory use:
+   text    data     bss     dec     hex filename
+   5740     116    1400    7256    1c58 /workspace/target/workspace.elf
+
+Compile succeeded.
+Saved firmware to: D:\photon_firmware_1523517544072.bin
+
+D:\>particle flash 4b004e000751353530373132 photon_firmware_1523517544072.bin
+Including:
+    photon_firmware_1523517544072.bin
+attempting to flash firmware to your device 4b004e000751353530373132
+Flash device OK:  Update started
+
+D:\>particle serial monitor
+Opening serial monitor for com port: "COM10"
+Serial monitor opened successfully:
+The random value id: 79
+The random value id: 71
+The random value id: 71
+The random value id: 63
+The random value id: 65
+The random value id: 68
+The random value id: 73
+The random value id: 70
+The random value id: 66
+The random value id: 69
+The random value id: 72
+The random value id: 77
+The random value id: 67
+The random value id: 72
+The random value id: 68
+The random value id: 60
+The random value id: 63
+The random value id: 69
+The random value id: 72
+The random value id: 64
+The random value id: 69
+The random value id: 71
+The random value id: 67
+Caught Interrupt.  Cleaning up.
+Serial connection closed.
